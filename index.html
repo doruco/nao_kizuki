@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
-             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,6 +22,8 @@
                 background-color: #e9f103;
                 background-size:500px;
 
+                margin: auto;
+
                 
             }
            
@@ -33,19 +34,19 @@
                 background-color: white;
                 border-radius: 100%;
 
-                border : 2px solid  #e9f103;
+                border : 3px solid  #e9f103;
                 background-image: url('FbodNOOacAAZZ3c.jpg');
                 background-position: center;
                 background-size: cover;
             }
             .main{
-                color: white;
-                font-size:  50px;
+                color:  rgb(68, 36, 36);
+                font-size:  25px;
                 width: 300px;
                 height: 30px;
-                color:  white;
-                font-size: 17px;
-                background-color:  #ff01ea;
+                color:  rgb(68, 36, 36);
+                font-size: 20px;
+                background-color:  #e9f103;
                 border-radius:  8px;
                 display: flex;
                 flex-direction: column;
@@ -56,19 +57,12 @@
 
 
                 margin-top: 30px;
-                margin-bottom:  10px;
+                margin-bottom:  0.1px;
             }
             .sub {
-                width: 250px;
-                height: 30px;
-                color:  white;
-                font-size: 17px;
-                background-color:    #ff01ea;
-                border-radius:  8px;
-
+               
                 margin-top: 0px;
-
-                margin-bottom:  20px;
+               
 
                 font-size:  14;
                 font-weight:  bold;
@@ -76,6 +70,8 @@
                 flex-direction: column;
                 justify-content:  center;
                 align-items: center;
+
+              
             }
 
            
@@ -129,7 +125,58 @@
                position: relative;
             }
 
-         
+            .sub > a 
+            {
+                width: 300px;
+                height: 50px;
+
+                background-color:  white;
+                border-radius:  5px;
+
+                margin-bottom:  20px;
+
+                font-size:  14;
+                font-weight:  bold;
+                color:44398A ;
+
+                display: flex;
+                flex-direction: column;
+                justify-content:  center;
+                align-items: center;
+
+                text-decoration: none;
+
+                box-shadow: 3px 3px 5px 0px black;
+
+                
+               
+            }
+
+            .sub > a:hover
+            {
+                background-color: #f2f2f2;
+            }
+
+            .SNS
+            {
+                width: 300px;
+                height: 40px;
+                background-color:  #e9f103;
+                border-radius:  8px;
+                color: rgb(68, 36, 36);
+                font-size:  20px;
+                font-weight:  bold;
+
+                margin-bottom: 0.1;
+               
+
+                display: flex;
+                flex-direction: column;
+                justify-content:  center;
+                align-items: center;
+            }
+
+     
 
 
      
@@ -143,8 +190,9 @@
         <div class ="wrap">
             <div class = "profile"></div>
             <h1 class = "main"> 시로즈키나오 [城月菜央] </h1>
-            <p class = "sub">나에 대해 알아보자 않을래? </p>
-          
+            <p class = "sub"> <a href ="http://takanenonadeshiko.jp/nao_kizuki/">나에 대해 알아보자 않을래? </a> </p>
+
+            <p class = "SNS"> SNS</p>
 
             <a target="_blank" href= "https://twitter.com/nao_kizuki">twitter</a>
             <a target="_blank" href= "https://www.instagram.com/nao_kizuki_/">instagram</a>
